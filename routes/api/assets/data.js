@@ -5,7 +5,7 @@ const works = [
         date: '2021',
         tag: ['Frontend', 'React'],
         describe: 'Today we\'re going to create one of the most important apps you can build for yourself: your developer portfolio.',
-        mainImg: 'http://acherevan-api.herokuapp.com/img/work1.jpg',
+        mainImg: 'http://acherevan-api.herokuapp.com/img/work1.png',
         html: [
             'Every React developer or web developer in general needs to be able to show off what they can do to any potential client or employer.',
             'That\'s exactly what we\'re going to be building right now, with the help of a number of industry standard tools, including React, Sass, and HTML.',
