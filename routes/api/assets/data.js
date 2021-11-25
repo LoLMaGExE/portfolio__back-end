@@ -1,7 +1,7 @@
 const works = [
     {
         id: 0,
-        title: 'Build a Portfolio Website with React',
+        title: 'Build a portfolio website with React',
         date: '2021',
         tag: ['Frontend', 'React'],
         describe: 'Today we\'re going to create one of the most important apps you can build for yourself: your developer portfolio.',
@@ -38,7 +38,7 @@ const posts = [{
 },
 {
     key: 1,
-    header: 'I`m Starting to learn Java',
+    header: 'I`m starting to learn Java',
     date: '12 Feb 2020',
     tag: ['Java', 'Programing'],
     description: 'I know a lot about programming. I know what is OOP, Funcional programming, Algoritms and etc. Finally we start use new program language, it`s JAVA. I really enjoy coding becouse i can create something my own. I pass the programming exam and have 73/100',
@@ -46,7 +46,7 @@ const posts = [{
 {
     key: 2,
     header: 'My goal is to become a front-end developer',
-    date: '1 August 2021',
+    date: '5 August 2021',
     tag: ['Design', 'Programing'],
     description: 'I think a lot about it. I start learning pure HTML and CSS and i wanna learn some web framework such as Angular or ReactJS',
 },
