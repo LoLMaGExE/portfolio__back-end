@@ -5,7 +5,7 @@ const works = [
         date: '2021',
         tag: ['Frontend', 'React'],
         describe: 'Today we\'re going to create one of the most important apps you can build for yourself: your developer portfolio.',
-        mainImg: 'http://acherevan-api.herokuapp.com/img/work1.png',
+        img: 'http://acherevan-api.herokuapp.com/img/work1.png',
         html: [
             'Every React developer or web developer in general needs to be able to show off what they can do to any potential client or employer.',
             'That\'s exactly what we\'re going to be building right now, with the help of a number of industry standard tools, including React, Sass, and HTML.',
@@ -18,7 +18,7 @@ const works = [
         date: '2021',
         tag: ['Backend', 'NodeJS'],
         describe: 'In this article, we will build a simple REST API with Node.js and Express.',
-        mainImg: 'http://acherevan-api.herokuapp.com/img/work2.jpg',
+        img: 'http://acherevan-api.herokuapp.com/img/work2.jpg',
         html: [
             'Have you been working on front-end technologies and been feeling like you’re missing out something in the whole development process? Well, here’s a good place to start. If you’re been building apps using HTML, CSS and JavaScript, you may want to learn how to build servers that serve content to these front end technologies.',
             'Express is a really cool Node framework that’s designed to help JavaScript developers create servers really quickly. NodeJS may be server side, but it can do a whole lot more than just serve pages and data. NodeJS is a powerful platform that lets you run JavaScript on your shell similar to how you’d run Python.',
@@ -50,8 +50,6 @@ const posts = [{
     tag: ['Design', 'Programing'],
     description: 'I think a lot about it. I start learning pure HTML and CSS and i wanna learn some web framework such as Angular or ReactJS',
 },
-
-
 ]
 
 module.exports = { works, posts }
