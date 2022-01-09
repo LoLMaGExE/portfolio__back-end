@@ -10,10 +10,12 @@ const getWorks = () => {
             title: 'Build a portfolio website with React',
             date: '2021',
             tag: ['Frontend', 'React'],
-            describe: 'Creating webpage with ReactJS and Sass',
+            describe: 'Today we\'re going to create one of the most important apps you can build for yourself: your developer portfolio.',
             img: workImgPortfolio,
             html: [
-                'I learned a lot about ReactJS and Sass so i wanna create something interesting. At first a thought about simple shop but then i decide to create my own portfolio website. To create design for this website i`ll use figma. To create website i`ll use ReactJS, JSX, Sass and ETC. '
+                'Every React developer or web developer in general needs to be able to show off what they can do to any potential client or employer.',
+                'That\'s exactly what we\'re going to be building right now, with the help of a number of industry standard tools, including React, Sass, and HTML.',
+
             ],
         },
         {
@@ -21,7 +23,7 @@ const getWorks = () => {
             title: 'Building a simple REST API with NodeJS and Express.',
             date: '2021',
             tag: ['Backend', 'NodeJS'],
-            describe: 'In this article, i will build a simple REST API with Node.js and Express.',
+            describe: 'In this article, we will build a simple REST API with Node.js and Express.',
             img: workImgPortfolioBack,
             html: [
                 'Have you been working on front-end technologies and been feeling like you’re missing out something in the whole development process? Well, here’s a good place to start. If you’re been building apps using HTML, CSS and JavaScript, you may want to learn how to build servers that serve content to these front end technologies.',
@@ -46,16 +48,27 @@ const getPosts = () => {
         header: 'I`m starting to learn Java',
         date: '12 Feb 2020',
         tag: ['Java', 'Programing'],
-        description: 'I know a lot of programming. I know what is OOP, Functional programming, Algoritms and etc. Finally i start use new program language, it`s JAVA. I really enjoy coding because i can create something my own.',
+        description: 'I know a lot of programming. I know what is OOP, Funcional programming, Algoritms and etc. Finally we start use new program language, it`s JAVA. I really enjoy coding because i can create something my own. I pass the programming exam and have 73/100',
     },
     {
         key: 2,
-        header: 'My aim is to become a front-end developer',
-        date: '5 August 2020',
+        header: 'My goal is to become a front-end developer',
+        date: '5 August 2021',
         tag: ['Design', 'Programing'],
-        description: 'I think a lot about it. I start learning pure HTML and CSS and i wanna learn some about web frameworks such as Angular or ReactJS',
+        description: 'I think a lot about it. I start learning pure HTML and CSS and i wanna learn some web framework such as Angular or ReactJS',
     },]
     return posts
+}
+
+const getAboutUser = () => {
+    const user = {
+        name: 'Alex',
+        photo: userPhoto,
+        profesion: 'Creative Technologist',
+        text: 'I\'m just person who really enjoy coding  :3'
+    }
+
+    return user
 }
 
 const works = getWorks();
