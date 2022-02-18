@@ -3,11 +3,10 @@
 // import work3 from "./../../assets/img/works/img3.png"
 
 // import userPhoto from "./../img/user/photo.png";
-import blank from "./../../assets/img/blank.png";
-import userPhoto from './../../assets/img/logo.jpg'
+const userPhoto = 'https://i.ibb.co/Bc1Wd04/logo.jpg';
 // import currencies from "./../img/works/exchange-money.jpg";
 
-export const getWorks = () => {
+const getWorks = () => {
     const works = [
         {
             id: 0,
@@ -114,7 +113,7 @@ export const getWorks = () => {
     return works;
 };
 
-export const getPosts = () => {
+const getPosts = () => {
     const posts = [
         {
             key: 0,
@@ -161,7 +160,7 @@ export const getPosts = () => {
     return posts;
 };
 
-export const getAboutUser = () => {
+const getAboutUser = () => {
     const user = {
         name: "Alex",
         userPhoto: userPhoto,
@@ -173,7 +172,7 @@ export const getAboutUser = () => {
     return user;
 };
 
-export const getContact = () => {
+const getContact = () => {
     const contact = {
         description:
             "Thank you for your visit to my web page. I want to tell you that i`m really happy because you can read it at the moment. So if you have some questions or offers you can write my on my email Lolmagexe@gmail.com, OleksiiCherevan@gmail.com or use this form! I promise! if you write me i`ll answer you. Also i`d like to say -All the best! And best wishes! Alex =)",
@@ -182,3 +181,5 @@ export const getContact = () => {
 
     return contact;
 };
+
+module.exports = {getAboutUser, getContact, getPosts, getWorks }
