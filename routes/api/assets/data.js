@@ -3,7 +3,7 @@
 // import work3 from "./../../assets/img/works/img3.png"
 
 // import userPhoto from "./../img/user/photo.png";
-import blank from "./../../assets/img/background/blank.png";
+import blank from "./../../assets/img/blank.png";
 import userPhoto from './../../assets/img/logo.jpg'
 // import currencies from "./../img/works/exchange-money.jpg";
 
